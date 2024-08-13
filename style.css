@@ -1,0 +1,194 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*Body*/
+
+.logo {
+    width: 80px;
+    height: 100px;
+    
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: rgb(129, 30, 30);
+    
+}    
+a {
+    text-decoration: none;
+    color: rgb(3, 7, 85);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Navigation Bar*/
+
+.navbar {
+    background: rgb(106, 105, 115);
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: brown;
+}
+
+a:is(:link, :active, :visited),active {
+   opacity: 1;
+}
+
+/*Hero*/
+
+.hero {
+    margin-bottom: 336px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.hero .container {
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+
+}
+
+/*Banner*/
+.banner {
+    background: rgba(210, 161, 39, 0.7);
+   margin-bottom: 30px;
+   
+   
+}
+
+.banner .container-sm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+
+/*About*/
+
+.about {
+   background: rgba(10, 10, 10, 0.6); 
+   color: white;
+   scroll-behavior: smooth;
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1rf);
+    margin-top: 50px;
+    gap: 30px;
+}
+.content3 {
+    text-align: left;
+    margin-right: 800px;
+}
+
+.content4 {
+   align-items: right;
+   text-align: right;
+   align-items: right;
+   margin-left: 800px;
+
+   
+}
+.content5 {
+    text-align: left;
+    margin-right: 800px;
+}
+.about-title {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+
+/*Classes*/
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-fancy {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+/*Cards*/
+
+.card {
+    border-radius: 10px;
+    margin: 40px 0px;
+    margin-left: 60px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    margin-left: 60px;
+}
+
+/*Footer*/
+
+.footer {
+    border-radius: 15px;
+    background: rgb(106, 105, 115);
+    padding-top: 15px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    align-items: center;
+    text-align: center;
+}
